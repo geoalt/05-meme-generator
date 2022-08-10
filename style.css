@@ -40,16 +40,31 @@ button {
 }
 
 #fire {
-  border: 3px dashed rgb(255, 0, 0);
-  background-color: rgb(255, 0, 0);
+  border: 3px dashed rgb(255 , 0 , 0);
+  background-color: rgb(255 , 0 , 0);
 }
 
 #water {
-  border: 5px double rgb(0, 0, 255);
-  background-color: rgb(0, 0, 255)
+  border: 5px double rgb(0 , 0 , 255);
+  background-color: rgb(0 , 0 , 255);
 }
 
 #earth {
-  border: 6px groove rgb(0, 128, 0);
-  background-color: rgb(0, 128, 0);
+  border: 6px groove rgb(0 , 128 , 0);
+  background-color: rgb(0 , 128 , 0);
+}
+
+section:nth-child( 5 ) {
+  margin-top: 20px;
+}
+
+.meme {
+  float: left;
+  margin-right: 10px;
+  width: 100px;
+  border: 1px solid black;
+}
+
+.clearfix {
+  clear: both;
 }
