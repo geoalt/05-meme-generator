@@ -1,1 +1,15 @@
 /* Projeto iniciado */
+#meme-image {
+  height: 500px;
+  width: 400px;
+  background-color: white;
+  background-position: center;
+  background-size: cover;
+}
+#meme-image-container {
+  margin-top: 10px;
+  word-wrap: break-word;
+  background-color: white;
+  border: 1px solid black;
+  width: fit-content;
+}
