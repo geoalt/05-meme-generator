@@ -22,7 +22,7 @@ imageInput.addEventListener("change", function () {
   const reader = new FileReader();
   reader.addEventListener("load", () => {
     const uploaded_image = reader.result;
-    document.querySelector("#meme-image").style.backgroundImage = `url(${uploaded_image})`;
+    document.querySelector("#meme-image").src = uploaded_image;
   });
   reader.readAsDataURL(this.files[0]);
 });
@@ -49,7 +49,7 @@ const setEarth = () => {
 const changePic = (e) => {
   const memeImagePreview = document.querySelector('#meme-image');
   const getSource = e.target.src
-  memeImagePreview.style.backgroundImage = `url(${getSource}`;
+  memeImagePreview.src = getSource;
 };
 
 // Eventos
